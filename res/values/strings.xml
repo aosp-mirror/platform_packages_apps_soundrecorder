@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sound Recorder</string>
+
+    <string name="record_your_message">Record your message</string>
+    <string name="message_recorded">Message recorded</string>
+    <string name="review_message">Review message</string>
+    <string name="recording">Recording</string>
+    <string name="recording_stopped">Recording stopped</string>
+    <string name="storage_is_full">Storage is full</string>
+    <string name="insert_sd_card">Please insert an SD card</string>
+    <string name="min_available"><xliff:g id="minutes">%d</xliff:g> min available</string>
+    <string name="sec_available"><xliff:g id="seconds">%d</xliff:g>s available</string>
+    <string name="storage_available"><xliff:g id="xxx">%02d:%02d</xliff:g> available</string>
+    <string name="accept">Use this recording</string>
+    <string name="discard">Discard</string>
+    <string name="button_ok">OK</string>
+    <string name="timer_format"><xliff:g id="format">%02d:%02d</xliff:g></string>
+    <string name="press_record">Press record</string>
+    
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <string name="audio_db_artist_name">Your recordings</string>
+    <string name="audio_db_album_name">Audio recordings</string>
+    <string name="audio_db_playlist_name">My recordings</string>
+    
+    <string name="error_sdcard_access">Unable to access SD card</string>
+    <string name="error_app_internal">Internal application error</string>
+    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+</resources>

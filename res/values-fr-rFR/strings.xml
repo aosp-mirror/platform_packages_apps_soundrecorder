@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="accept">Utiliser cet enregistrement</string>
+  <string name="app_name">Magnétophone</string>
+  <string name="audio_db_album_name">Enregistrements audio</string>
+  <string name="audio_db_artist_name">Vos enregistrements</string>
+  <string name="audio_db_playlist_name">Mes enregistrements</string>
+  <string name="audio_db_title_format">
+					<xliff:g id="format">aaaa-MM-jj HH:mm:ss</xliff:g>
+				</string>
+  <string name="button_ok">OK</string>
+  <string name="discard">Abandonner</string>
+  <string name="error_app_internal">Erreur d\'application interne</string>
+  <string name="error_mediadb_new_record">Impossible d\'enregistrer le fichier audio</string>
+  <string name="error_sdcard_access">Impossible à la carte la carte SD</string>
+  <string name="insert_sd_card">Veuillez insérer une carte SD</string>
+  <string name="message_recorded">Message enregistré</string>
+  <string name="min_available"><xliff:g id="minutes">%d</xliff:g> min disponible(s)</string>
+  <string name="press_record">Appuyez enregistrer</string>
+  <string name="record_your_message">Enregistrer votre message</string>
+  <string name="recording">Enregistrement</string>
+  <string name="recording_stopped">Enregistrement arrêté</string>
+  <string name="review_message">Aperçu du message</string>
+  <string name="sec_available"><xliff:g id="seconds">%d</xliff:g>s disponibles</string>
+  <string name="storage_available"><xliff:g id="xxx">%02d:%02d</xliff:g> disponible</string>
+  <string name="storage_is_full">Le stockage est plein</string>
+  <string name="timer_format">
+					<xliff:g id="format">%02d:%02d</xliff:g>
+				</string>
+</resources>
