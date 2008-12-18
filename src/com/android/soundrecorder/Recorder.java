@@ -13,7 +13,6 @@ import android.util.Log;
 
 public class Recorder implements OnCompletionListener, OnErrorListener {
     static final String SAMPLE_PREFIX = "recording";
-    static final String SAMPLE_EXTENSION = ".amr"; // this is a lie. See comment in com.google.android.mms.pdu.PduPersister
     static final String SAMPLE_PATH_KEY = "sample_path";
     static final String SAMPLE_LENGTH_KEY = "sample_length";
 
@@ -125,7 +124,7 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
         signalStateChanged(IDLE_STATE);
     }
     
-    public void startRecording() {
+    public void startRecording(int outputfileformat, String extension) {
         stop();
         
         if (mSampleFile == null) {
@@ -134,8 +133,7 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
                 sampleDir = new File("/sdcard/sdcard");
             
             try {
-                mSampleFile = File.createTempFile(SAMPLE_PREFIX, SAMPLE_EXTENSION,
-                                                    sampleDir);
+                mSampleFile = File.createTempFile(SAMPLE_PREFIX, extension, sampleDir);
             } catch (IOException e) {
                 setError(SDCARD_ACCESS_ERROR);
                 return;
@@ -144,10 +142,20 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
         
         mRecorder = new MediaRecorder();
         mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-        mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+        mRecorder.setOutputFormat(outputfileformat);
         mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
         mRecorder.setOutputFile(mSampleFile.getAbsolutePath());
-        mRecorder.prepare();
+
+        // Handle IOException
+        try {
+            mRecorder.prepare();
+        } catch(IOException exception) {
+            setError(INTERNAL_ERROR);
+            mRecorder.reset();
+            mRecorder.release();
+            mRecorder = null;
+            return;
+        }
         mRecorder.start();
 
         mSampleStart = System.currentTimeMillis();

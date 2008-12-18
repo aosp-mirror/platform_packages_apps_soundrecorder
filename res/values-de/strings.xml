@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Soundrekorder"</string>
+    <string name="record_your_message">"Ihre Nachricht aufnehmen"</string>
+    <string name="message_recorded">"Nachricht aufgezeichnet"</string>
+    <string name="review_message">"Nachricht erneut anhören"</string>
+    <string name="recording">"Aufnahme"</string>
+    <string name="recording_stopped">"Aufnahme beendet"</string>
+    <string name="storage_is_full">"Speicher ist voll"</string>
+    <!-- no translation found for max_length_reached (6398215743584093353) -->
+    <skip />
+    <string name="insert_sd_card">"SD-Karte einlegen"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> Min. verfügbar"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> Sek. verfügbar"</string>
+    <string name="accept">"Diese Aufnahme verwenden"</string>
+    <string name="discard">"Verwerfen"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"Aufnahmetaste drücken"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"Ihre Aufnahmen"</string>
+    <string name="audio_db_album_name">"Audioaufnahmen"</string>
+    <string name="audio_db_playlist_name">"Meine Aufnahmen"</string>
+    <string name="error_sdcard_access">"Kein Zugriff auf SD-Karte möglich."</string>
+    <string name="error_app_internal">"Interner Anwendungsfehler"</string>
+    <string name="error_mediadb_new_record">"Aufgenommenen Audioinhalt speichern"</string>
+</resources>
