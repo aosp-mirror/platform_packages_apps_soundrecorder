@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"录音机"</string>
+    <string name="record_your_message">"为您的消息录音"</string>
+    <string name="message_recorded">"消息已记录"</string>
+    <string name="review_message">"查看消息"</string>
+    <string name="recording">"正在录音"</string>
+    <string name="recording_stopped">"录音已停止"</string>
+    <string name="storage_is_full">"存储空间已满"</string>
+    <!-- no translation found for max_length_reached (6398215743584093353) -->
+    <skip />
+    <string name="insert_sd_card">"请插入 SD 卡"</string>
+    <string name="min_available">"还剩 <xliff:g id="MINUTES">%d</xliff:g> 分钟"</string>
+    <string name="sec_available">"还剩 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
+    <string name="accept">"使用此录音"</string>
+    <string name="discard">"放弃"</string>
+    <string name="button_ok">"确定"</string>
+    <string name="press_record">"按录音键"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"您的录音"</string>
+    <string name="audio_db_album_name">"录音"</string>
+    <string name="audio_db_playlist_name">"我的录音"</string>
+    <string name="error_sdcard_access">"无法访问 SD 卡"</string>
+    <string name="error_app_internal">"内部应用程序错误"</string>
+    <string name="error_mediadb_new_record">"无法保存录制的音频"</string>
+</resources>
