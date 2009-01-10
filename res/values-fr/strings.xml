@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Enregistreur"</string>
+    <string name="record_your_message">"Enregistrez votre message"</string>
+    <string name="message_recorded">"Message enregistré"</string>
+    <string name="review_message">"Récupérer le message"</string>
+    <string name="recording">"Enregistrement audio"</string>
+    <string name="recording_stopped">"Enregistrement audio interrompu"</string>
+    <string name="storage_is_full">"La mémoire est pleine"</string>
+    <!-- no translation found for max_length_reached (6398215743584093353) -->
+    <skip />
+    <string name="insert_sd_card">"Insérez une carte SD"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min disponible(s)"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> s disponible(s)"</string>
+    <string name="accept">"Utiliser cet enregistrement audio"</string>
+    <string name="discard">"Supprimer"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"Appuyez sur Enregistrer"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"Vos enregistrements audio"</string>
+    <string name="audio_db_album_name">"Enregistrements audio"</string>
+    <string name="audio_db_playlist_name">"Mes enregistrements audio"</string>
+    <string name="error_sdcard_access">"Impossible d\'accéder à la carte SD"</string>
+    <string name="error_app_internal">"Erreur d\'application interne"</string>
+    <string name="error_mediadb_new_record">"Impossible de sauvegarder l\'audio enregistré"</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Registratore suoni"</string>
+    <string name="record_your_message">"Registra il messaggio"</string>
+    <string name="message_recorded">"Messaggio registrato"</string>
+    <string name="review_message">"Controlla messaggio"</string>
+    <string name="recording">"Registrazione in corso"</string>
+    <string name="recording_stopped">"Registrazione interrotta"</string>
+    <string name="storage_is_full">"La memoria è piena"</string>
+    <!-- no translation found for max_length_reached (6398215743584093353) -->
+    <skip />
+    <string name="insert_sd_card">"Inserisci una scheda SD"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min a disposizione"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> a disposizione"</string>
+    <string name="accept">"Usa questa registrazione"</string>
+    <string name="discard">"Ignora"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"Premi Registra"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"Registrazioni"</string>
+    <string name="audio_db_album_name">"Registrazioni audio"</string>
+    <string name="audio_db_playlist_name">"Registrazioni personali"</string>
+    <string name="error_sdcard_access">"Impossibile accedere alla scheda SD"</string>
+    <string name="error_app_internal">"Errore interno dell\'applicazione"</string>
+    <string name="error_mediadb_new_record">"Impossibile salvare l\'audio registrato"</string>
+</resources>
