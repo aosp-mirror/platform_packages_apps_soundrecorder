@@ -8,8 +8,7 @@
     <string name="recording">"録音中"</string>
     <string name="recording_stopped">"録音を停止しました"</string>
     <string name="storage_is_full">"メモリがいっぱいです"</string>
-    <!-- no translation found for max_length_reached (6398215743584093353) -->
-    <skip />
+    <string name="max_length_reached">"最大サイズに達しました"</string>
     <string name="insert_sd_card">"SDカードを挿入してください"</string>
     <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g>分録音可能"</string>
     <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>秒録音可能"</string>
