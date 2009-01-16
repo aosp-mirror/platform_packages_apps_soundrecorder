@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Geluidsrecorder"</string>
+    <string name="record_your_message">"Uw bericht opnemen"</string>
+    <string name="message_recorded">"Bericht opgenomen"</string>
+    <string name="review_message">"Bericht controleren"</string>
+    <string name="recording">"Opnemen"</string>
+    <string name="recording_stopped">"Opname gestopt"</string>
+    <string name="storage_is_full">"Opslagruimte is vol"</string>
+    <string name="max_length_reached">"Maximumlengte is bereikt"</string>
+    <string name="insert_sd_card">"Plaats een SD-kaart"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min beschikbaar"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>s beschikbaar"</string>
+    <string name="accept">"Deze opname gebruiken"</string>
+    <string name="discard">"Weggooien"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"Druk op \'Opnemen\'"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"Uw opnamen"</string>
+    <string name="audio_db_album_name">"Audio-opnamen"</string>
+    <string name="audio_db_playlist_name">"Mijn opnamen"</string>
+    <string name="error_sdcard_access">"Geen toegang tot SD-kaart"</string>
+    <string name="error_app_internal">"Interne toepassingsfout"</string>
+    <string name="error_mediadb_new_record">"Kan opgenomen audio niet opslaan"</string>
+</resources>

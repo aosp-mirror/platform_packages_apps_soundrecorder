@@ -8,8 +8,7 @@
     <string name="recording">"Registrazione in corso"</string>
     <string name="recording_stopped">"Registrazione interrotta"</string>
     <string name="storage_is_full">"La memoria è piena"</string>
-    <!-- no translation found for max_length_reached (6398215743584093353) -->
-    <skip />
+    <string name="max_length_reached">"Lunghezza massima raggiunta"</string>
     <string name="insert_sd_card">"Inserisci una scheda SD"</string>
     <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min a disposizione"</string>
     <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> a disposizione"</string>

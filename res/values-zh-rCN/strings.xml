@@ -8,8 +8,7 @@
     <string name="recording">"正在录音"</string>
     <string name="recording_stopped">"录音已停止"</string>
     <string name="storage_is_full">"存储空间已满"</string>
-    <!-- no translation found for max_length_reached (6398215743584093353) -->
-    <skip />
+    <string name="max_length_reached">"已达到长度上限"</string>
     <string name="insert_sd_card">"请插入 SD 卡"</string>
     <string name="min_available">"还剩 <xliff:g id="MINUTES">%d</xliff:g> 分钟"</string>
     <string name="sec_available">"还剩 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
