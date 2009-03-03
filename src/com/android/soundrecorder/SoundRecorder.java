@@ -332,6 +332,19 @@ public class SoundRecorder extends Activity
     }
     
     /*
+     * Make sure we're not recording music playing in the background, ask
+     * the MediaPlaybackService to pause playback.
+     */
+    private void stopAudioPlayback() {
+        // Shamelessly copied from MediaPlaybackService.java, which
+        // should be public, but isn't.
+        Intent i = new Intent("com.android.music.musicservicecommand");
+        i.putExtra("command", "pause");
+
+        sendBroadcast(i);
+    }
+
+    /*
      * Handle the buttons.
      */
     public void onClick(View button) {
@@ -350,6 +363,8 @@ public class SoundRecorder extends Activity
                     mErrorUiMessage = getResources().getString(R.string.storage_is_full);
                     updateUi();
                 } else {
+                    stopAudioPlayback();
+
                     if (AUDIO_AMR.equals(mRequestedType)) {
                         mRemainingTimeCalculator.setBitRate(BITRATE_AMR);
                         mRecorder.startRecording(MediaRecorder.OutputFormat.RAW_AMR, ".amr");
