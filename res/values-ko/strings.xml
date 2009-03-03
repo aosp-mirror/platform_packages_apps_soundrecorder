@@ -30,7 +30,7 @@
     <string name="discard">"삭제"</string>
     <string name="button_ok">"확인"</string>
     <string name="press_record">"녹음 누르기"</string>
-    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
     <string name="audio_db_artist_name">"녹음"</string>
     <string name="audio_db_album_name">"오디오 녹음"</string>
