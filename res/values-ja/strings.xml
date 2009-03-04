@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"音声レコーダー"</string>
+    <string name="record_your_message">"メッセージの録音"</string>
+    <string name="message_recorded">"メッセージを録音しました"</string>
+    <string name="review_message">"メッセージの確認"</string>
+    <string name="recording">"録音中"</string>
+    <string name="recording_stopped">"録音を停止しました"</string>
+    <string name="storage_is_full">"メモリがいっぱいです"</string>
+    <string name="max_length_reached">"最大サイズに達しました"</string>
+    <string name="insert_sd_card">"SDカードを挿入してください"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g>分録音可能"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>秒録音可能"</string>
+    <string name="accept">"この録音を使用"</string>
+    <string name="discard">"破棄"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"録音ボタンを押して録音"</string>
+    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
+    <skip />
+    <string name="audio_db_artist_name">"録音リスト"</string>
+    <string name="audio_db_album_name">"録音"</string>
+    <string name="audio_db_playlist_name">"マイ録音"</string>
+    <string name="error_sdcard_access">"SDカードにアクセスできません"</string>
+    <string name="error_app_internal">"アプリケーションの内部エラー"</string>
+    <string name="error_mediadb_new_record">"録音を保存できません"</string>
+</resources>
