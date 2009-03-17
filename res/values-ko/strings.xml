@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Sound Recorder"</string>
+    <string name="record_your_message">"메시지 녹음"</string>
+    <string name="message_recorded">"메시지 녹음됨"</string>
+    <string name="review_message">"메시지 재생"</string>
+    <string name="recording">"녹음 중"</string>
+    <string name="recording_stopped">"녹음이 중지되었습니다."</string>
+    <string name="storage_is_full">"저장공간이 꽉 찼습니다."</string>
+    <string name="max_length_reached">"최대 길이에 도달했습니다."</string>
+    <string name="insert_sd_card">"SD 카드를 삽입하세요."</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g>분 녹음 가능"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>초 녹음 가능"</string>
+    <string name="accept">"이 녹음 메시지 사용"</string>
+    <string name="discard">"삭제"</string>
+    <string name="button_ok">"확인"</string>
+    <string name="press_record">"녹음 누르기"</string>
+    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
+    <skip />
+    <string name="audio_db_artist_name">"녹음"</string>
+    <string name="audio_db_album_name">"오디오 녹음"</string>
+    <string name="audio_db_playlist_name">"내 녹음"</string>
+    <string name="error_sdcard_access">"SD 카드에 액세스할 수 없습니다."</string>
+    <string name="error_app_internal">"내부 응용프로그램 오류"</string>
+    <string name="error_mediadb_new_record">"녹음된 오디오를 저장할 수 없습니다."</string>
+</resources>

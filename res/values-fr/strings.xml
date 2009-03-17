@@ -24,13 +24,13 @@
     <string name="storage_is_full">"La mémoire est pleine"</string>
     <string name="max_length_reached">"Taille maximale atteinte"</string>
     <string name="insert_sd_card">"Insérez une carte SD"</string>
-    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min disponible(s)"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> mn disponible(s)"</string>
     <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> s disponible(s)"</string>
     <string name="accept">"Utiliser cet enregistrement audio"</string>
     <string name="discard">"Supprimer"</string>
     <string name="button_ok">"OK"</string>
-    <string name="press_record">"Appuyez sur Enregistrer"</string>
-    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <string name="press_record">"Appuyez sur \"Enregistrer\""</string>
+    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
     <skip />
     <string name="audio_db_artist_name">"Vos enregistrements audio"</string>
     <string name="audio_db_album_name">"Enregistrements audio"</string>

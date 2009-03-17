@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Lydopptak"</string>
+    <string name="record_your_message">"Ta opp en melding"</string>
+    <string name="message_recorded">"Melding tatt opp"</string>
+    <string name="review_message">"Spill tilbake melding"</string>
+    <string name="recording">"Tar opp"</string>
+    <string name="recording_stopped">"Opptak avbrutt"</string>
+    <string name="storage_is_full">"Tomt for plass"</string>
+    <string name="max_length_reached">"Makslengde nådd"</string>
+    <string name="insert_sd_card">"Sett inn et minnekort"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min tilgjengelig"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>s tilgjengelig"</string>
+    <string name="accept">"Bruk dette opptaket"</string>
+    <string name="discard">"Forkast"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"Trykk «ta opp»"</string>
+    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
+    <skip />
+    <string name="audio_db_artist_name">"Dine opptak"</string>
+    <string name="audio_db_album_name">"Lydopptak"</string>
+    <string name="audio_db_playlist_name">"Mine opptak"</string>
+    <string name="error_sdcard_access">"Kunne ikke aksessere minnekort"</string>
+    <string name="error_app_internal">"Intern programfeil"</string>
+    <string name="error_mediadb_new_record">"Kunne ikke lagre lyd som ble tatt opp"</string>
+</resources>

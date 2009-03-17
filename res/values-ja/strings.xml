@@ -17,7 +17,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">"音声レコーダー"</string>
     <string name="record_your_message">"メッセージの録音"</string>
-    <string name="message_recorded">"メッセージを記録しました"</string>
+    <string name="message_recorded">"メッセージを録音しました"</string>
     <string name="review_message">"メッセージの確認"</string>
     <string name="recording">"録音中"</string>
     <string name="recording_stopped">"録音を停止しました"</string>
@@ -29,8 +29,8 @@
     <string name="accept">"この録音を使用"</string>
     <string name="discard">"破棄"</string>
     <string name="button_ok">"OK"</string>
-    <string name="press_record">"[録音]を押す"</string>
-    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <string name="press_record">"録音ボタンを押して録音"</string>
+    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
     <skip />
     <string name="audio_db_artist_name">"録音リスト"</string>
     <string name="audio_db_album_name">"録音"</string>

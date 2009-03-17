@@ -30,7 +30,7 @@
     <string name="discard">"Verwerfen"</string>
     <string name="button_ok">"OK"</string>
     <string name="press_record">"Aufnahmetaste drücken"</string>
-    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <!-- no translation found for audio_db_title_format (7616097189642558199) -->
     <skip />
     <string name="audio_db_artist_name">"Ihre Aufnahmen"</string>
     <string name="audio_db_album_name">"Audioaufnahmen"</string>
