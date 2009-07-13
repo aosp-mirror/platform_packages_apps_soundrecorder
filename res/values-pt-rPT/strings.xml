@@ -18,24 +18,24 @@
     <string name="app_name">"Gravador de som"</string>
     <string name="record_your_message">"Grave a sua mensagem"</string>
     <string name="message_recorded">"Mensagem gravada"</string>
-    <string name="review_message">"Analisar mensagem"</string>
-    <string name="recording">"Gravando"</string>
-    <string name="recording_stopped">"Gravação interrompida"</string>
-    <string name="storage_is_full">"O armazenamento está cheio"</string>
-    <string name="max_length_reached">"Tamanho máximo atingido"</string>
-    <string name="insert_sd_card">"Insira um cartão SD"</string>
-    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> minutos disponíveis"</string>
-    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> disponíveis"</string>
-    <string name="accept">"Usar esta gravação"</string>
-    <string name="discard">"Descartar"</string>
+    <string name="review_message">"Rever mensagem"</string>
+    <string name="recording">"Gravação"</string>
+    <string name="recording_stopped">"Gravação parada"</string>
+    <string name="storage_is_full">"Armazenamento cheio"</string>
+    <string name="max_length_reached">"Tamanho·máximo atingido"</string>
+    <string name="insert_sd_card">"Introduza um cartão SD"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min disponíveis"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>s disponíveis"</string>
+    <string name="accept">"Utilizar esta gravação"</string>
+    <string name="discard">"Rejeitar"</string>
     <string name="button_ok">"OK"</string>
-    <string name="press_record">"Pressione gravar"</string>
+    <string name="press_record">"Prima gravar"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
-    <string name="audio_db_artist_name">"Suas gravações"</string>
+    <string name="audio_db_artist_name">"As suas gravações"</string>
     <string name="audio_db_album_name">"Gravações de áudio"</string>
-    <string name="audio_db_playlist_name">"Minhas gravações"</string>
-    <string name="error_sdcard_access">"Não é possível acessar o cartão SD"</string>
-    <string name="error_app_internal">"Erro interno do aplicativo"</string>
-    <string name="error_mediadb_new_record">"Não é possível salvar o áudio gravado"</string>
+    <string name="audio_db_playlist_name">"As minhas gravações"</string>
+    <string name="error_sdcard_access">"Impossível aceder ao cartão SD"</string>
+    <string name="error_app_internal">"Erro interno da aplicação"</string>
+    <string name="error_mediadb_new_record">"Impossível guardar áudio gravado"</string>
 </resources>

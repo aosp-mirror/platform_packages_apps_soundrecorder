@@ -15,27 +15,27 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">"Запись звука"</string>
-    <string name="record_your_message">"Запись сообщения"</string>
+    <string name="app_name">"Диктофон"</string>
+    <string name="record_your_message">"Запишите сообщение"</string>
     <string name="message_recorded">"Сообщение записано"</string>
-    <string name="review_message">"Проверка сообщения"</string>
+    <string name="review_message">"Просмотреть сообщение"</string>
     <string name="recording">"Запись"</string>
     <string name="recording_stopped">"Запись остановлена"</string>
-    <string name="storage_is_full">"Память полна"</string>
-    <string name="max_length_reached">"Достигнут максимальный размер"</string>
-    <string name="insert_sd_card">"Вставьте карту SD"</string>
-    <string name="min_available">"осталось <xliff:g id="MINUTES">%d</xliff:g> мин."</string>
-    <string name="sec_available">"осталось <xliff:g id="SECONDS">%d</xliff:g> сек."</string>
+    <string name="storage_is_full">"Память заполнена"</string>
+    <string name="max_length_reached">"Достигнута максимальная длина"</string>
+    <string name="insert_sd_card">"Вставьте SD-карту"</string>
+    <string name="min_available">"Осталось <xliff:g id="MINUTES">%d</xliff:g> мин."</string>
+    <string name="sec_available">"Осталось <xliff:g id="SECONDS">%d</xliff:g> сек."</string>
     <string name="accept">"Использовать эту запись"</string>
-    <string name="discard">"Закрыть"</string>
+    <string name="discard">"Отменить"</string>
     <string name="button_ok">"ОК"</string>
-    <string name="press_record">"Нажмите \"Запись\""</string>
+    <string name="press_record">"Нажмите \"Записать\""</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
     <string name="audio_db_artist_name">"Ваши записи"</string>
-    <string name="audio_db_album_name">"Звуковые записи"</string>
+    <string name="audio_db_album_name">"Аудиозаписи"</string>
     <string name="audio_db_playlist_name">"Мои записи"</string>
-    <string name="error_sdcard_access">"Нет доступа к карте SD"</string>
+    <string name="error_sdcard_access">"Не удалось получить доступ к SD-карте"</string>
     <string name="error_app_internal">"Внутренняя ошибка приложения"</string>
-    <string name="error_mediadb_new_record">"Не удается сохранить записанный звук"</string>
+    <string name="error_mediadb_new_record">"Не удалось сохранить аудиозапись"</string>
 </resources>
