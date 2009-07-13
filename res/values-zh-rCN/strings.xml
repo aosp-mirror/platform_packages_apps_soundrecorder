@@ -16,11 +16,11 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">"录音机"</string>
-    <string name="record_your_message">"为您的消息录音"</string>
-    <string name="message_recorded">"消息已记录"</string>
-    <string name="review_message">"查看消息"</string>
-    <string name="recording">"正在录音"</string>
-    <string name="recording_stopped">"录音已停止"</string>
+    <string name="record_your_message">"录制您的信息"</string>
+    <string name="message_recorded">"信息已录制"</string>
+    <string name="review_message">"查看信息"</string>
+    <string name="recording">"录音"</string>
+    <string name="recording_stopped">"录音停止"</string>
     <string name="storage_is_full">"存储空间已满"</string>
     <string name="max_length_reached">"已达到长度上限"</string>
     <string name="insert_sd_card">"请插入 SD 卡"</string>

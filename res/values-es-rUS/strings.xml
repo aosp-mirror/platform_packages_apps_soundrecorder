@@ -22,7 +22,7 @@
     <string name="recording">"Grabando"</string>
     <string name="recording_stopped">"La grabación se ha detenido"</string>
     <string name="storage_is_full">"El espacio de almacenamiento está lleno"</string>
-    <string name="max_length_reached">"Duración máxima alcanzada:"</string>
+    <string name="max_length_reached">"Duración máxima alcanzada"</string>
     <string name="insert_sd_card">"Inserta una tarjeta SD"</string>
     <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> minutos disponibles"</string>
     <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>s disponibles"</string>

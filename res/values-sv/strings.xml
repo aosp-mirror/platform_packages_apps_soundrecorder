@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Ljudinspelaren"</string>
+    <string name="record_your_message">"Spela in ditt meddelande"</string>
+    <string name="message_recorded">"Meddelandet har spelats in"</string>
+    <string name="review_message">"Granska meddelande"</string>
+    <string name="recording">"Inspelning"</string>
+    <string name="recording_stopped">"Inspelningen stoppades"</string>
+    <string name="storage_is_full">"Lagringsplatsen är full"</string>
+    <string name="max_length_reached">"Maximal längd har uppnåtts"</string>
+    <string name="insert_sd_card">"Sätt i ett SD-kort"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> minuter tillgängligt"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> s kvar"</string>
+    <string name="accept">"Använd den här inspelningen"</string>
+    <string name="discard">"Släng"</string>
+    <string name="button_ok">"OK"</string>
+    <string name="press_record">"Tryck på spela in"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"Dina inspelningar"</string>
+    <string name="audio_db_album_name">"Ljudinspelningar"</string>
+    <string name="audio_db_playlist_name">"Mina inspelningar"</string>
+    <string name="error_sdcard_access">"Det gick inte att öppna SD-kortet"</string>
+    <string name="error_app_internal">"Internt programfel"</string>
+    <string name="error_mediadb_new_record">"Det gick inte att spara inspelat ljud"</string>
+</resources>
