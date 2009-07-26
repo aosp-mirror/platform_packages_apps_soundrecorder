@@ -367,7 +367,7 @@ public class SoundRecorder extends Activity
 
                     if (AUDIO_AMR.equals(mRequestedType)) {
                         mRemainingTimeCalculator.setBitRate(BITRATE_AMR);
-                        mRecorder.startRecording(MediaRecorder.OutputFormat.RAW_AMR, ".amr");
+                        mRecorder.startRecording(MediaRecorder.OutputFormat.AMR_NB, ".amr");
                     } else if (AUDIO_3GPP.equals(mRequestedType)) {
                         mRemainingTimeCalculator.setBitRate(BITRATE_3GPP);
                         mRecorder.startRecording(MediaRecorder.OutputFormat.THREE_GPP, ".3gpp");
