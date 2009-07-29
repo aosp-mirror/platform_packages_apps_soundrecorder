@@ -27,14 +27,14 @@
     <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g>분 녹음 가능"</string>
     <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g>초 녹음 가능"</string>
     <string name="accept">"이 녹음 메시지 사용"</string>
-    <string name="discard">"삭제"</string>
+    <string name="discard">"무시"</string>
     <string name="button_ok">"확인"</string>
     <string name="press_record">"녹음 누르기"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
-    <string name="audio_db_artist_name">"녹음"</string>
+    <string name="audio_db_artist_name">"내 콘텐츠"</string>
     <string name="audio_db_album_name">"오디오 녹음"</string>
-    <string name="audio_db_playlist_name">"내 녹음"</string>
+    <string name="audio_db_playlist_name">"내 콘텐츠"</string>
     <string name="error_sdcard_access">"SD 카드에 액세스할 수 없습니다."</string>
     <string name="error_app_internal">"내부 응용프로그램 오류"</string>
     <string name="error_mediadb_new_record">"녹음된 오디오를 저장할 수 없습니다."</string>

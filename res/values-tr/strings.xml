@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Ses Kaydedici"</string>
+    <string name="record_your_message">"Mesajınızı kaydedin"</string>
+    <string name="message_recorded">"Mesaj kaydedildi"</string>
+    <string name="review_message">"Mesajı incele"</string>
+    <string name="recording">"Kaydediyor"</string>
+    <string name="recording_stopped">"Kayıt durdu"</string>
+    <string name="storage_is_full">"Depolama alanı dolu"</string>
+    <string name="max_length_reached">"Maksimum uzunluğa ulaşıldı"</string>
+    <string name="insert_sd_card">"Lütfen bir SD kart takın"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> dak. var"</string>
+    <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> var"</string>
+    <string name="accept">"Bu kaydı kullan"</string>
+    <string name="discard">"Sil"</string>
+    <string name="button_ok">"Tamam"</string>
+    <string name="press_record">"Kaydet düğmesine basın"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name">"Kayıtlarınız"</string>
+    <string name="audio_db_album_name">"Ses kayıtları"</string>
+    <string name="audio_db_playlist_name">"Kayıtlarım"</string>
+    <string name="error_sdcard_access">"SD karta erişilemiyor"</string>
+    <string name="error_app_internal">"Dahili uygulama hatası"</string>
+    <string name="error_mediadb_new_record">"Kaydedilmiş ses diske yazılamıyor"</string>
+</resources>

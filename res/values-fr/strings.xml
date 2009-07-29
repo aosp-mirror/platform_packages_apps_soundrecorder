@@ -24,7 +24,7 @@
     <string name="storage_is_full">"La mémoire est pleine"</string>
     <string name="max_length_reached">"Taille maximale atteinte"</string>
     <string name="insert_sd_card">"Insérez une carte SD"</string>
-    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> min disponible(s)"</string>
+    <string name="min_available">"<xliff:g id="MINUTES">%d</xliff:g> mn disponibles"</string>
     <string name="sec_available">"<xliff:g id="SECONDS">%d</xliff:g> s disponible(s)"</string>
     <string name="accept">"Utiliser cet enregistrement audio"</string>
     <string name="discard">"Supprimer"</string>
