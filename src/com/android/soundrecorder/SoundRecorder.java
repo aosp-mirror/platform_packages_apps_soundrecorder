@@ -367,10 +367,11 @@ public class SoundRecorder extends Activity
 
                     if (AUDIO_AMR.equals(mRequestedType)) {
                         mRemainingTimeCalculator.setBitRate(BITRATE_AMR);
-                        mRecorder.startRecording(MediaRecorder.OutputFormat.AMR_NB, ".amr");
+                        mRecorder.startRecording(MediaRecorder.OutputFormat.AMR_NB, ".amr", this);
                     } else if (AUDIO_3GPP.equals(mRequestedType)) {
                         mRemainingTimeCalculator.setBitRate(BITRATE_3GPP);
-                        mRecorder.startRecording(MediaRecorder.OutputFormat.THREE_GPP, ".3gpp");
+                        mRecorder.startRecording(MediaRecorder.OutputFormat.THREE_GPP, ".3gpp",
+                                this);
                     } else {
                         throw new IllegalArgumentException("Invalid output file type requested");
                     }
@@ -829,6 +830,9 @@ public class SoundRecorder extends Activity
             case Recorder.SDCARD_ACCESS_ERROR:
                 message = res.getString(R.string.error_sdcard_access);
                 break;
+            case Recorder.IN_CALL_RECORD_ERROR:
+                // TODO: update error message to reflect that the recording could not be
+                //       performed during a call.
             case Recorder.INTERNAL_ERROR:
                 message = res.getString(R.string.error_app_internal);
                 break;
