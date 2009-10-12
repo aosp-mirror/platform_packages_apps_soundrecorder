@@ -3,6 +3,8 @@ package com.android.soundrecorder;
 import java.io.File;
 import java.io.IOException;
 
+import android.content.Context;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.media.MediaPlayer.OnCompletionListener;
@@ -25,6 +27,7 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
     public static final int NO_ERROR = 0;
     public static final int SDCARD_ACCESS_ERROR = 1;
     public static final int INTERNAL_ERROR = 2;
+    public static final int IN_CALL_RECORD_ERROR = 3;
     
     public interface OnStateChangedListener {
         public void onStateChanged(int state);
@@ -124,7 +127,7 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
         signalStateChanged(IDLE_STATE);
     }
     
-    public void startRecording(int outputfileformat, String extension) {
+    public void startRecording(int outputfileformat, String extension, Context context) {
         stop();
         
         if (mSampleFile == null) {
@@ -156,8 +159,22 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
             mRecorder = null;
             return;
         }
-        mRecorder.start();
-
+        // Handle RuntimeException if the recording couldn't start
+        try {
+            mRecorder.start();
+        } catch (RuntimeException exception) {
+            AudioManager audioMngr = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+            boolean isInCall = audioMngr.getMode() == AudioManager.MODE_IN_CALL;
+            if (isInCall) {
+                setError(IN_CALL_RECORD_ERROR);
+            } else {
+                setError(INTERNAL_ERROR);
+            }
+            mRecorder.reset();
+            mRecorder.release();
+            mRecorder = null;
+            return;
+        }
         mSampleStart = System.currentTimeMillis();
         setState(RECORDING_STATE);
     }
