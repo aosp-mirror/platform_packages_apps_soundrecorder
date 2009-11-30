@@ -16,7 +16,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" msgid="5955735546071433666">"录音机"</string>
-    <string name="record_your_message" msgid="1583671906691662148">"录制您的信息"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"录下您的留言"</string>
     <string name="message_recorded" msgid="381539460921872233">"信息已录制"</string>
     <string name="review_message" msgid="201616012287839474">"查看信息"</string>
     <string name="recording" msgid="4426791467211376099">"录音"</string>
