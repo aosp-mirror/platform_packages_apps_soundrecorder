@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     
     <ImageView
          android:src="@android:drawable/divider_horizontal_dark"
-         android:layout_width="fill_parent"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:scaleType="fitXY"/>
     
     <RelativeLayout android:id="@+id/timerViewLayout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="134dip"
         android:background="@drawable/gradient_bg">
 
@@ -71,12 +71,12 @@
     
     <ImageView
          android:src="@android:drawable/divider_horizontal_dark"
-         android:layout_width="fill_parent"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:scaleType="fitXY"/>
 
     <FrameLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
@@ -84,12 +84,12 @@
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:layout_gravity="center_vertical"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" 
                 android:layout_centerInParent="true" >
                 
                 <Button android:id="@+id/acceptButton"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/accept"
                     android:layout_weight="1"
@@ -97,7 +97,7 @@
                     android:layout_marginLeft="50dip" />
         
                 <Button android:id="@+id/discardButton"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/discard"
                     android:layout_weight="1"
@@ -107,8 +107,8 @@
             </LinearLayout>
     
         <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             
             <com.android.soundrecorder.VUMeter android:id="@+id/uvMeter"
                 android:layout_width="150px"
@@ -120,13 +120,13 @@
     
     <ImageView
          android:src="@android:drawable/divider_horizontal_dark"
-         android:layout_width="fill_parent"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:scaleType="fitXY"/>
 
                     
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="60dip"
         android:background="@android:drawable/title_bar"
         android:gravity="center_horizontal"
@@ -137,20 +137,20 @@
             android:layout_marginBottom="4dip"
             android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent" >
+            android:layout_height="match_parent" >
 
             <ImageButton android:id="@+id/recordButton"
-                android:layout_height="fill_parent" 
+                android:layout_height="match_parent" 
                 style="@android:style/MediaButton"
                 android:src="@drawable/record" />
     
             <ImageButton android:id="@+id/playButton"
-                android:layout_height="fill_parent" 
+                android:layout_height="match_parent" 
                 style="@android:style/MediaButton"
                 android:src="@drawable/play" />
     
             <ImageButton android:id="@+id/stopButton"
-                android:layout_height="fill_parent" 
+                android:layout_height="match_parent" 
                 style="@android:style/MediaButton"
                 android:src="@drawable/stop" />
 
