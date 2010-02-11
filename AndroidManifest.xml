@@ -16,6 +16,9 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.soundrecorder">
+
+    <original-package android:name="com.android.soundrecorder" />
+
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
