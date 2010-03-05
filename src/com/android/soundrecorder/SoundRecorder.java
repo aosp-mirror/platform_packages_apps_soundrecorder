@@ -186,6 +186,7 @@ public class SoundRecorder extends Activity
     static final String AUDIO_3GPP = "audio/3gpp";
     static final String AUDIO_AMR = "audio/amr";
     static final String AUDIO_ANY = "audio/*";
+    static final String ANY_ANY = "*/*";
     
     static final int BITRATE_AMR =  5900; // bits/sec
     static final int BITRATE_3GPP = 5900;
@@ -230,7 +231,8 @@ public class SoundRecorder extends Activity
         Intent i = getIntent();
         if (i != null) {
             String s = i.getType();
-            if (AUDIO_AMR.equals(s) || AUDIO_3GPP.equals(s) || AUDIO_ANY.equals(s)) {
+            if (AUDIO_AMR.equals(s) || AUDIO_3GPP.equals(s) || AUDIO_ANY.equals(s)
+                    || ANY_ANY.equals(s)) {
                 mRequestedType = s;
             } else if (s != null) {
                 // we only support amr and 3gpp formats right now 
@@ -244,7 +246,7 @@ public class SoundRecorder extends Activity
             mMaxFileSize = i.getLongExtra(EXTRA_MAX_BYTES, -1);
         }
         
-        if (AUDIO_ANY.equals(mRequestedType)) {
+        if (AUDIO_ANY.equals(mRequestedType) || ANY_ANY.equals(mRequestedType)) {
             mRequestedType = AUDIO_3GPP;
         }
         
