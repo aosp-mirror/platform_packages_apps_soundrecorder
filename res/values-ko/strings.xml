@@ -20,7 +20,7 @@
     <string name="record_your_message" msgid="1583671906691662148">"메시지 녹음"</string>
     <string name="message_recorded" msgid="381539460921872233">"메시지 녹음됨"</string>
     <string name="review_message" msgid="201616012287839474">"메시지 재생"</string>
-    <string name="recording" msgid="4426791467211376099">"녹음 중"</string>
+    <string name="recording" msgid="4426791467211376099">"녹음"</string>
     <string name="recording_stopped" msgid="1580278719585249612">"녹음이 중지되었습니다."</string>
     <string name="storage_is_full" msgid="416039755956726221">"저장공간이 꽉 찼습니다."</string>
     <string name="max_length_reached" msgid="6398215743584093353">"최대 길이에 도달했습니다."</string>

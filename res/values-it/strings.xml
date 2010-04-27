@@ -26,7 +26,7 @@
     <string name="max_length_reached" msgid="6398215743584093353">"Lunghezza massima raggiunta"</string>
     <string name="insert_sd_card" msgid="2251831579676114197">"Inserisci una scheda SD"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min a disposizione"</string>
-    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> a disposizione"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> s a disposizione"</string>
     <string name="accept" msgid="7770652589312551402">"Usa questa registrazione"</string>
     <string name="discard" msgid="761613433029406319">"Ignora"</string>
     <string name="button_ok" msgid="3004911343723076226">"OK"</string>

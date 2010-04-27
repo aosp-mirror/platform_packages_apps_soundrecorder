@@ -20,7 +20,7 @@
     <string name="record_your_message" msgid="1583671906691662148">"Graba tu mensaje"</string>
     <string name="message_recorded" msgid="381539460921872233">"Mensaje grabado"</string>
     <string name="review_message" msgid="201616012287839474">"Revisar mensaje"</string>
-    <string name="recording" msgid="4426791467211376099">"Grabando"</string>
+    <string name="recording" msgid="4426791467211376099">"Grabación"</string>
     <string name="recording_stopped" msgid="1580278719585249612">"La grabación se ha detenido"</string>
     <string name="storage_is_full" msgid="416039755956726221">"El espacio de almacenamiento está lleno"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"Duración máxima alcanzada"</string>
