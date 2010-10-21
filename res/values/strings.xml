@@ -33,7 +33,7 @@
     <!-- label shown when the recording has reached maximum allowed file size -->
     <string name="max_length_reached">Maximum length reached</string>
     <!-- label shown when there is no sd card available to record to [CHAR LIMIT=30] -->
-    <string name="insert_sd_card" product="nosdcard">Please mount shared storage</string>
+    <string name="insert_sd_card" product="nosdcard">Please mount USB storage</string>
     <!-- label shown when there is no sd card available to record to -->
     <string name="insert_sd_card" product="default">Please insert an SD card</string>
     <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
@@ -62,7 +62,7 @@
     <string name="audio_db_playlist_name">My recordings</string>
    
     <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
-    <string name="error_sdcard_access" product="nosdcard">Unable to access shared storage</string>
+    <string name="error_sdcard_access" product="nosdcard">Unable to access USB storage</string>
     <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
     <string name="error_sdcard_access" product="default">Unable to access SD card</string>
     <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
