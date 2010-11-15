@@ -164,7 +164,8 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
             mRecorder.start();
         } catch (RuntimeException exception) {
             AudioManager audioMngr = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-            boolean isInCall = audioMngr.getMode() == AudioManager.MODE_IN_CALL;
+            boolean isInCall = ((audioMngr.getMode() == AudioManager.MODE_IN_CALL) ||
+                    (audioMngr.getMode() == AudioManager.MODE_IN_COMMUNICATION));
             if (isInCall) {
                 setError(IN_CALL_RECORD_ERROR);
             } else {
