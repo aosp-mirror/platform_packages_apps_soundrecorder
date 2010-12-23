@@ -24,7 +24,7 @@
     <string name="recording_stopped" msgid="1580278719585249612">"ضبط متوقف شد"</string>
     <string name="storage_is_full" msgid="416039755956726221">"ذخیره سازی پر است"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"به حداکثر طول مجاز رسیده اید"</string>
-    <!-- outdated translation 2251831579676114197 -->     <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"لطفاً کارت SD را وارد کنید"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"لطفاً حافظه USB را متصل کنید"</string>
     <string name="insert_sd_card" product="default" msgid="2251831579676114197">"لطفاً کارت SD را وارد کنید"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> دقیقه موجود است"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> ثانیه موجود"</string>
@@ -37,7 +37,7 @@
     <string name="audio_db_artist_name" msgid="961640229118120080">"موارد ضبط شده شما"</string>
     <string name="audio_db_album_name" msgid="9072588113803264440">"موارد ضبط شده صوتی"</string>
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"موارد ضبط شده من"</string>
-    <!-- outdated translation 8005660724361043509 -->     <string name="error_sdcard_access" product="nosdcard" msgid="7292601458300337571">"دسترسی به کارت SD امکان پذیر نیست"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="7292601458300337571">"دسترسی به حافظه USB امکان پذیر نیست"</string>
     <string name="error_sdcard_access" product="default" msgid="8005660724361043509">"دسترسی به کارت SD امکان پذیر نیست"</string>
     <string name="error_app_internal" msgid="2365923237657572011">"خطای برنامه داخلی"</string>
     <string name="error_mediadb_new_record" msgid="2225774949947938064">"صدای ضبط شده ذخیره نشد"</string>
