@@ -709,10 +709,8 @@ public class SoundRecorder extends Activity
                     mRecordButton.requestFocus();
                     
                     mStateMessage1.setVisibility(View.INVISIBLE);
-                    mStateLED.setVisibility(View.VISIBLE);
-                    mStateLED.setImageResource(R.drawable.idle_led);
-                    mStateMessage2.setVisibility(View.VISIBLE);
-                    mStateMessage2.setText(res.getString(R.string.press_record));
+                    mStateLED.setVisibility(View.INVISIBLE);
+                    mStateMessage2.setVisibility(View.INVISIBLE);
                     
                     mExitButtons.setVisibility(View.INVISIBLE);
                     mVUMeter.setVisibility(View.VISIBLE);
@@ -743,8 +741,7 @@ public class SoundRecorder extends Activity
                 if (mSampleInterrupted) {
                     mStateMessage2.setVisibility(View.VISIBLE);
                     mStateMessage2.setText(res.getString(R.string.recording_stopped));
-                    mStateLED.setImageResource(R.drawable.idle_led);
-                    mStateLED.setVisibility(View.VISIBLE);                        
+                    mStateLED.setVisibility(View.INVISIBLE);
                 }
                 
                 if (mErrorUiMessage != null) {
