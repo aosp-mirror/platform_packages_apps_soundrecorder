@@ -26,7 +26,9 @@
     <application android:label="@string/app_name"
                  android:icon="@drawable/ic_launcher_soundrecorder">
         <activity android:name="SoundRecorder"
-                android:configChanges="orientation|keyboardHidden">
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.SoundRecorder"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
