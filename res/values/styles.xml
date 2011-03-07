@@ -17,4 +17,7 @@
     <style name="Theme.SoundRecorder" parent="@android:style/Theme.Holo.DialogWhenLarge">
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
+    <style name="MediaButton" parent="@android:style/MediaButton">
+        <item name="android:background">@android:drawable/btn_default</item>
+    </style>
 </resources>

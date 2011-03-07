@@ -155,17 +155,17 @@
 
             <ImageButton android:id="@+id/recordButton"
                 android:layout_height="match_parent" 
-                style="@android:style/MediaButton"
+                style="@style/MediaButton"
                 android:src="@drawable/record" />
     
             <ImageButton android:id="@+id/playButton"
                 android:layout_height="match_parent" 
-                style="@android:style/MediaButton"
+                style="@style/MediaButton"
                 android:src="@drawable/play" />
     
             <ImageButton android:id="@+id/stopButton"
                 android:layout_height="match_parent" 
-                style="@android:style/MediaButton"
+                style="@style/MediaButton"
                 android:src="@drawable/stop" />
 
         </LinearLayout>
