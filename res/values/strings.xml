@@ -49,8 +49,6 @@
     <string name="button_ok">OK</string>
     <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
     <string name="timer_format" translatable="false"><xliff:g id="format">%02d:%02d</xliff:g></string>
-    <!-- label shown before the user has recorded anything -->
-    <string name="press_record">Press record</string>
    
     <!-- the name under which recordings will be visible in the media database is formatted like this --> 
     <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
