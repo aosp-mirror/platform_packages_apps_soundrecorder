@@ -31,7 +31,6 @@
     <string name="accept" msgid="7770652589312551402">"Utilizar esta gravação"</string>
     <string name="discard" msgid="761613433029406319">"Rejeitar"</string>
     <string name="button_ok" msgid="3004911343723076226">"OK"</string>
-    <string name="press_record" msgid="5039711805290780494">"Prima gravar"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
     <string name="audio_db_artist_name" msgid="961640229118120080">"As suas gravações"</string>
