@@ -26,7 +26,7 @@
     <string name="max_length_reached" msgid="6398215743584093353">"Makslengde nådd"</string>
     <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"Koble til USB-lagring"</string>
     <string name="insert_sd_card" product="default" msgid="2251831579676114197">"Sett inn et minnekort"</string>
-    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min tilgjengelig"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min. tilgjengelig"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>s tilgjengelig"</string>
     <string name="accept" msgid="7770652589312551402">"Bruk dette opptaket"</string>
     <string name="discard" msgid="761613433029406319">"Forkast"</string>
