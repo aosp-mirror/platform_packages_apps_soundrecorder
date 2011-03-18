@@ -26,8 +26,8 @@
     <string name="max_length_reached" msgid="6398215743584093353">"Osiągnięto maksymalną długość"</string>
     <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"Podłącz nośnik USB"</string>
     <string name="insert_sd_card" product="default" msgid="2251831579676114197">"Włóż kartę SD"</string>
-    <string name="min_available" msgid="5493947690062988925">"Zostało <xliff:g id="MINUTES">%d</xliff:g> minut"</string>
-    <string name="sec_available" msgid="2297020788861694399">"Zostało <xliff:g id="SECONDS">%d</xliff:g> sekund"</string>
+    <string name="min_available" msgid="5493947690062988925">"Zostało <xliff:g id="MINUTES">%d</xliff:g> min."</string>
+    <string name="sec_available" msgid="2297020788861694399">"Zostało <xliff:g id="SECONDS">%d</xliff:g> sek."</string>
     <string name="accept" msgid="7770652589312551402">"Użyj tego nagrania"</string>
     <string name="discard" msgid="761613433029406319">"Odrzuć"</string>
     <string name="button_ok" msgid="3004911343723076226">"OK"</string>

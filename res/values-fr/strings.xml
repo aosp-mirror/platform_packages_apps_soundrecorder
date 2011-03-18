@@ -24,10 +24,10 @@
     <string name="recording_stopped" msgid="1580278719585249612">"Enregistrement audio interrompu"</string>
     <string name="storage_is_full" msgid="416039755956726221">"La mémoire est pleine"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"Taille maximale atteinte"</string>
-    <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"Connectez une mémoire USB."</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"Installez une mémoire USB."</string>
     <string name="insert_sd_card" product="default" msgid="2251831579676114197">"Insérez une carte SD"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> mn disponibles"</string>
-    <string name="sec_available" msgid="2297020788861694399">"Il reste <xliff:g id="SECONDS">%d</xliff:g> s."</string>
+    <string name="sec_available" msgid="2297020788861694399">"Il reste <xliff:g id="SECONDS">%d</xliff:g> s"</string>
     <string name="accept" msgid="7770652589312551402">"Utiliser cet enregistrement audio"</string>
     <string name="discard" msgid="761613433029406319">"Supprimer"</string>
     <string name="button_ok" msgid="3004911343723076226">"OK"</string>
