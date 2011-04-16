@@ -586,6 +586,7 @@ public class SoundRecorder extends Activity
         SimpleDateFormat formatter = new SimpleDateFormat(
                 res.getString(R.string.audio_db_title_format));
         String title = formatter.format(date);
+        long sampleLengthMillis = mRecorder.sampleLength() * 1000L;
 
         // Lets label the recorded audio file as NON-MUSIC so that the file
         // won't be displayed automatically, except for in the playlist.
@@ -595,6 +596,7 @@ public class SoundRecorder extends Activity
         cv.put(MediaStore.Audio.Media.DATA, file.getAbsolutePath());
         cv.put(MediaStore.Audio.Media.DATE_ADDED, (int) (current / 1000));
         cv.put(MediaStore.Audio.Media.DATE_MODIFIED, (int) (modDate / 1000));
+        cv.put(MediaStore.Audio.Media.DURATION, sampleLengthMillis);
         cv.put(MediaStore.Audio.Media.MIME_TYPE, mRequestedType);
         cv.put(MediaStore.Audio.Media.ARTIST,
                 res.getString(R.string.audio_db_artist_name));
