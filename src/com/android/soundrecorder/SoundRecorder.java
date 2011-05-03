@@ -811,10 +811,7 @@ public class SoundRecorder extends Activity
         if (state == Recorder.PLAYING_STATE || state == Recorder.RECORDING_STATE) {
             mSampleInterrupted = false;
             mErrorUiMessage = null;
-        }
-        
-        if (state == Recorder.RECORDING_STATE) {
-            mWakeLock.acquire(); // we don't want to go to sleep while recording
+            mWakeLock.acquire(); // we don't want to go to sleep while recording or playing
         } else {
             if (mWakeLock.isHeld())
                 mWakeLock.release();
