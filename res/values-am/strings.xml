@@ -31,10 +31,8 @@
     <!-- no translation found for storage_is_full (416039755956726221) -->
     <skip />
     <string name="max_length_reached" msgid="6398215743584093353">"ከፍተኛ ርዝመት ደርሷል"</string>
-    <!-- no translation found for insert_sd_card (8212754638456591792) -->
-    <skip />
-    <!-- no translation found for insert_sd_card (2251831579676114197) -->
-    <skip />
+    <string name="insert_sd_card" product="nosdcard" msgid="8212754638456591792">"እባክዎ የUSB  ማከማቻ ይሰኩ"</string>
+    <!-- outdated translation 8212754638456591792 -->     <string name="insert_sd_card" product="default" msgid="2251831579676114197">"እባክዎ የUSB  ማከማቻ ይሰኩ"</string>
     <!-- no translation found for min_available (5493947690062988925) -->
     <skip />
     <!-- no translation found for sec_available (2297020788861694399) -->
@@ -53,10 +51,8 @@
     <skip />
     <!-- no translation found for audio_db_playlist_name (5592939050047058162) -->
     <skip />
-    <!-- no translation found for error_sdcard_access (7292601458300337571) -->
-    <skip />
-    <!-- no translation found for error_sdcard_access (8005660724361043509) -->
-    <skip />
+    <string name="error_sdcard_access" product="nosdcard" msgid="7292601458300337571">"USB  ማከማቻ ለመድረስ አልተቻለም።"</string>
+    <!-- outdated translation 7292601458300337571 -->     <string name="error_sdcard_access" product="default" msgid="8005660724361043509">"USB  ማከማቻ ለመድረስ አልተቻለም።"</string>
     <!-- no translation found for error_app_internal (2365923237657572011) -->
     <skip />
     <!-- no translation found for error_mediadb_new_record (2225774949947938064) -->
