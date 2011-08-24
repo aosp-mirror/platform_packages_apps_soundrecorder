@@ -99,14 +99,6 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true" >
 
-                <Button android:id="@+id/acceptButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/accept"
-                    android:layout_weight="1"
-                    android:layout_marginLeft="15dip"
-                    android:layout_marginRight="2dip" />
-
                 <Button android:id="@+id/discardButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -115,6 +107,13 @@
                     android:layout_marginLeft="2dip"
                     android:layout_marginRight="15dip" />
 
+                <Button android:id="@+id/acceptButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accept"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="2dip" />
             </LinearLayout>
 
         <RelativeLayout

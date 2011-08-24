@@ -42,7 +42,7 @@
     <string name="sec_available"><xliff:g id="seconds">%d</xliff:g>s available</string>
 
     <!-- button to accept the current recording and return it to the caller -->
-    <string name="accept">Use this recording</string>
+    <string name="accept">Done</string>
     <!-- button to discard the current recording and return to the caller -->
     <string name="discard">Discard</string>
     <!-- acknowlegement button in a number of dialogs -->
