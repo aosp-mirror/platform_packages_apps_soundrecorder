@@ -28,7 +28,7 @@
     <string name="insert_sd_card" product="default" msgid="2251831579676114197">"SD-Karte einlegen"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> Min. verfügbar"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> Sek. verfügbar"</string>
-    <string name="accept" msgid="7770652589312551402">"Diese Aufnahme verwenden"</string>
+    <!-- outdated translation 7770652589312551402 -->     <string name="accept" msgid="1888285552128743656">"Diese Aufnahme verwenden"</string>
     <string name="discard" msgid="761613433029406319">"Verwerfen"</string>
     <string name="button_ok" msgid="3004911343723076226">"OK"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
