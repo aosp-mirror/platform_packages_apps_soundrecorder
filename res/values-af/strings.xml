@@ -37,8 +37,7 @@
     <skip />
     <!-- no translation found for sec_available (2297020788861694399) -->
     <skip />
-    <!-- no translation found for accept (1888285552128743656) -->
-    <skip />
+    <string name="accept" msgid="1888285552128743656">"Klaar"</string>
     <!-- no translation found for discard (761613433029406319) -->
     <skip />
     <!-- no translation found for button_ok (3004911343723076226) -->
