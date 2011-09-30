@@ -18,8 +18,8 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" msgid="5955735546071433666">"Isiqophi Somsindo"</string>
     <string name="record_your_message" msgid="1583671906691662148">"Qopha umyalezo wakho"</string>
-    <string name="message_recorded" msgid="381539460921872233">"Umyalezo uqophiwe"</string>
-    <string name="review_message" msgid="201616012287839474">"Buyekeza umyalezo"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Umlayezo uqophiwe"</string>
+    <string name="review_message" msgid="201616012287839474">"Buyekeza umlayezo"</string>
     <string name="recording" msgid="4426791467211376099">"Iyaqopha"</string>
     <string name="recording_stopped" msgid="1580278719585249612">"Ukuqopha kumile"</string>
     <string name="storage_is_full" msgid="416039755956726221">"Indawo yokugcina igcwele"</string>
