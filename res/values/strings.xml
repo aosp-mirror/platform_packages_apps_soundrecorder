@@ -33,9 +33,9 @@
     <!-- label shown when the recording has reached maximum allowed file size -->
     <string name="max_length_reached">Maximum length reached</string>
     <!-- label shown when there is no sd card available to record to [CHAR LIMIT=30] -->
-    <string name="insert_sd_card" product="nosdcard">Please mount USB storage</string>
+    <string name="insert_sd_card" product="nosdcard">Mount USB storage</string>
     <!-- label shown when there is no sd card available to record to -->
-    <string name="insert_sd_card" product="default">Please insert an SD card</string>
+    <string name="insert_sd_card" product="default">Insert an SD card</string>
     <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
     <string name="min_available"><xliff:g id="minutes">%d</xliff:g> min available</string>
     <!-- label shown when there is less than 1 minute of space left to record -->
@@ -60,11 +60,11 @@
     <string name="audio_db_playlist_name">My recordings</string>
    
     <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
-    <string name="error_sdcard_access" product="nosdcard">Unable to access USB storage</string>
+    <string name="error_sdcard_access" product="nosdcard">Can\'t access USB storage.</string>
     <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
-    <string name="error_sdcard_access" product="default">Unable to access SD card</string>
+    <string name="error_sdcard_access" product="default">Can\'t access SD card.</string>
     <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
-    <string name="error_app_internal">Internal application error</string>
+    <string name="error_app_internal">Internal application error.</string>
     <!-- shown as the message in a dialog when the recording could not be added to the media database -->
-    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+    <string name="error_mediadb_new_record">Couldn\'t save recorded audio.</string>
 </resources>
