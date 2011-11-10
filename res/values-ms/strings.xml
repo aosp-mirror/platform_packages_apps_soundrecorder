@@ -24,8 +24,8 @@
     <string name="recording_stopped" msgid="1580278719585249612">"Rakaman dihentikan"</string>
     <string name="storage_is_full" msgid="416039755956726221">"Storan penuh"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"Panjang maksimum telah dicapai"</string>
-    <!-- outdated translation 8212754638456591792 -->     <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Sila lekapkan storan USB"</string>
-    <!-- outdated translation 8212754638456591792 -->     <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Sila lekapkan storan USB"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Lekap storan USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Masukkan kad SD"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> min tersedia"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> tersedia"</string>
     <string name="accept" msgid="1888285552128743656">"Selesai"</string>
@@ -36,8 +36,8 @@
     <string name="audio_db_artist_name" msgid="961640229118120080">"Rakaman anda"</string>
     <string name="audio_db_album_name" msgid="9072588113803264440">"Rakaman audio"</string>
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"Rakaman saya"</string>
-    <!-- outdated translation 7292601458300337571 -->     <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Tidak boleh mengakses storan USB"</string>
-    <!-- outdated translation 7292601458300337571 -->     <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Tidak boleh mengakses storan USB"</string>
-    <!-- outdated translation 2365923237657572011 -->     <string name="error_app_internal" msgid="312884382388702022">"Ralat aplikasi dalaman"</string>
-    <!-- outdated translation 2225774949947938064 -->     <string name="error_mediadb_new_record" msgid="261714902333432462">"Tidak boleh menyimpan rakaman audio"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Tidak dapat mengakses storan USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Tidak dapat mengakses kad SD."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Ralat aplikasi dalaman."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Tidak dapat menyimpan rakaman audio"</string>
 </resources>
