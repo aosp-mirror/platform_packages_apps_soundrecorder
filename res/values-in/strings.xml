@@ -38,6 +38,6 @@
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"Rekaman saya"</string>
     <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Tidak dapat mengakses penyimpanan USB."</string>
     <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"Tidak dapat mengakses kartu SD."</string>
-    <string name="error_app_internal" msgid="312884382388702022">"Galat aplikasi internal."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Kesalahan aplikasi internal."</string>
     <string name="error_mediadb_new_record" msgid="261714902333432462">"Tidak dapat menyimpan audio yang direkam."</string>
 </resources>
