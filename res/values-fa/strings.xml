@@ -23,7 +23,7 @@
     <string name="recording" msgid="4426791467211376099">"در حال ضبط"</string>
     <string name="recording_stopped" msgid="1580278719585249612">"ضبط متوقف شد"</string>
     <string name="storage_is_full" msgid="416039755956726221">"ذخیره‌سازی پر است"</string>
-    <string name="max_length_reached" msgid="6398215743584093353">"به حداکثر طول مجاز رسیده‌اد"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"به حداکثر طول مجاز رسیده‌اید"</string>
     <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"اتصال حافظهٔ USB"</string>
     <string name="insert_sd_card" product="default" msgid="1007630222084726808">"یک کارت SD وارد کنید"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> دقیقه موجود است"</string>
