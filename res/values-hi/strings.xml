@@ -30,7 +30,7 @@
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> उपलब्ध"</string>
     <string name="accept" msgid="1888285552128743656">"पूर्ण"</string>
     <string name="discard" msgid="761613433029406319">"छोड़ें"</string>
-    <string name="button_ok" msgid="3004911343723076226">"ठीक"</string>
+    <string name="button_ok" msgid="3004911343723076226">"ठीक है"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
     <string name="audio_db_artist_name" msgid="961640229118120080">"आपकी रिकॉर्डिंग"</string>
@@ -38,6 +38,6 @@
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"मेरी रिकॉर्डिंग"</string>
     <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB संग्रहण में नहीं पहुंचा जा सकता."</string>
     <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD कार्ड में नहीं पहुंचा जा सकता."</string>
-    <string name="error_app_internal" msgid="312884382388702022">"आंतरिक एप्लिकेशन त्रुटि."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"आंतरिक एप्स त्रुटि."</string>
     <string name="error_mediadb_new_record" msgid="261714902333432462">"रिकॉर्ड किया गया ऑडियो सहेजा नहीं जा सका."</string>
 </resources>
