@@ -38,6 +38,6 @@
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"ההקלטות שלי"</string>
     <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"לא ניתן לגשת לאחסון USB."</string>
     <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"לא ניתן לגשת לכרטיס SD."</string>
-    <string name="error_app_internal" msgid="312884382388702022">"שגיאת יישום פנימית"</string>
+    <string name="error_app_internal" msgid="312884382388702022">"שגיאת אפליקציה פנימית"</string>
     <string name="error_mediadb_new_record" msgid="261714902333432462">"לא ניתן לשמור את האודיו שהוקלט"</string>
 </resources>
