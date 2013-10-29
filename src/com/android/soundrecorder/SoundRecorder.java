@@ -31,6 +31,7 @@ import android.content.BroadcastReceiver;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.media.AudioManager;
 import android.media.MediaRecorder;
 import android.net.Uri;
 import android.os.Bundle;
@@ -354,12 +355,8 @@ public class SoundRecorder extends Activity
      * the MediaPlaybackService to pause playback.
      */
     private void stopAudioPlayback() {
-        // Shamelessly copied from MediaPlaybackService.java, which
-        // should be public, but isn't.
-        Intent i = new Intent("com.android.music.musicservicecommand");
-        i.putExtra("command", "pause");
-
-        sendBroadcast(i);
+        AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+        am.requestAudioFocus(null, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
     }
 
     /*
