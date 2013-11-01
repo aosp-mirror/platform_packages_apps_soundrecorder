@@ -24,8 +24,8 @@
     <string name="recording_stopped" msgid="1580278719585249612">"ההקלטה נעצרה"</string>
     <string name="storage_is_full" msgid="416039755956726221">"שטח האחסון מלא"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"זהו האורך המרבי המותר"</string>
-    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"טען אחסון USB"</string>
-    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"הכנס כרטיס SD"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"‏טען אחסון USB"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"‏הכנס כרטיס SD"</string>
     <string name="min_available" msgid="5493947690062988925">"נותרו <xliff:g id="MINUTES">%d</xliff:g> דקות"</string>
     <string name="sec_available" msgid="2297020788861694399">"נותרו <xliff:g id="SECONDS">%d</xliff:g> שניות"</string>
     <string name="accept" msgid="1888285552128743656">"בוצע"</string>
@@ -36,8 +36,8 @@
     <string name="audio_db_artist_name" msgid="961640229118120080">"ההקלטות שלך"</string>
     <string name="audio_db_album_name" msgid="9072588113803264440">"הקלטות אודיו"</string>
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"ההקלטות שלי"</string>
-    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"לא ניתן לגשת לאחסון USB."</string>
-    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"לא ניתן לגשת לכרטיס SD."</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"‏לא ניתן לגשת לאחסון USB."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"‏לא ניתן לגשת לכרטיס SD."</string>
     <string name="error_app_internal" msgid="312884382388702022">"שגיאת אפליקציה פנימית"</string>
     <string name="error_mediadb_new_record" msgid="261714902333432462">"לא ניתן לשמור את האודיו שהוקלט"</string>
 </resources>
