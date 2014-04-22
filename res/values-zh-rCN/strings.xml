@@ -36,8 +36,8 @@
     <string name="audio_db_artist_name" msgid="961640229118120080">"您的录音"</string>
     <string name="audio_db_album_name" msgid="9072588113803264440">"录音"</string>
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"我的录音"</string>
-    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"无法访问 USB 存储设备。"</string>
-    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"无法访问 SD 卡。"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"无法使用USB存储设备。"</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"无法使用SD卡。"</string>
     <string name="error_app_internal" msgid="312884382388702022">"发生内部应用错误。"</string>
     <string name="error_mediadb_new_record" msgid="261714902333432462">"无法保存录制的音频。"</string>
 </resources>
