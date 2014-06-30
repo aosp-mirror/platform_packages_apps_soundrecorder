@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"সাউন্ড রেকর্ডার"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"আপনার বার্তা রেকর্ড হচ্ছে"</string>
+    <string name="message_recorded" msgid="381539460921872233">"বার্তা রেকর্ড হয়েছে"</string>
+    <string name="review_message" msgid="201616012287839474">"বার্তা পর্যালোচনা করুন"</string>
+    <string name="recording" msgid="4426791467211376099">"রেকর্ড হচ্ছে"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"রেকর্ডিং বন্ধ হয়েছে"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"সঞ্চয়স্থান পূর্ণ"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"সর্বোচ্চ দৈর্ঘ্যসীমায় পৌঁচেছে"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB সঞ্চয়স্থান মাউন্ট করুন"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"একটা SD কার্ড ঢোকান"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> মিনিট উপলব্ধ"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> উপলব্ধ"</string>
+    <string name="accept" msgid="1888285552128743656">"সম্পন্ন"</string>
+    <string name="discard" msgid="761613433029406319">"খারিজ করুন"</string>
+    <string name="button_ok" msgid="3004911343723076226">"ঠিক আছে"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"আপনার রেকর্ডিংগুলি"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"অডিও রেকর্ডিংগুলি"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"আমার রেকর্ডিংগুলি"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB সঞ্চয়স্থান অ্যাক্সেস করা যাচ্ছে না।"</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD কার্ড অ্যাক্সেস করা যাচ্ছে না।"</string>
+    <string name="error_app_internal" msgid="312884382388702022">"অভ্যন্তরীণ অ্যাপ্লিকেশান ত্রুটি।"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"রেকর্ড করা অডিও সংরক্ষণ করা যায়নি।"</string>
+</resources>

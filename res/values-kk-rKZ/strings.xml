@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"Дауыс жазу құрылғысы"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Хабарыңызды жазыңыз"</string>
+    <string name="message_recorded" msgid="381539460921872233">"Хабар жазылды"</string>
+    <string name="review_message" msgid="201616012287839474">"Хабарды шолу"</string>
+    <string name="recording" msgid="4426791467211376099">"Жазуда"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"Жазу тоқтатылды"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"Жад толы"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"Ең жоғары ұзындықтан асып кетті"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB жадын енгізу"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"SD картасын енгізу"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> минут бар"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> бар"</string>
+    <string name="accept" msgid="1888285552128743656">"Орындалды"</string>
+    <string name="discard" msgid="761613433029406319">"Өшіру"</string>
+    <string name="button_ok" msgid="3004911343723076226">"Жарайды"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Сіздің жазбаларыңыз"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"Aудио жазбалар"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"Менің жазбаларым"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB жадына кіру мүмкін емес."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD картасына кіру мүмкін емес."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"Ішкі қолданба қателігі."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"Жазылған аудионы сақтай алмады."</string>
+</resources>
