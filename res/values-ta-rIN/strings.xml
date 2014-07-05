@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="5955735546071433666">"சவுண்ட் ரெக்கார்டர்"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"உங்கள் செய்தியைப் பதிவு செய்யவும்"</string>
+    <string name="message_recorded" msgid="381539460921872233">"செய்தி பதிவானது"</string>
+    <string name="review_message" msgid="201616012287839474">"செய்தியை மறுஆய்வு செய்"</string>
+    <string name="recording" msgid="4426791467211376099">"பதிவு செய்யப்படுகிறது"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"பதிவு செய்தல் நிறுத்தப்பட்டது"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"சேமிப்பகம் நிரம்பியது"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"அதிகபட்ச நீளத்தை அடைந்தது"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"USB சேமிப்பிடத்தைப் பொருத்து"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"SD கார்டை செருகவும்"</string>
+    <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> நிமிடம் உள்ளது"</string>
+    <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>வி உள்ளது"</string>
+    <string name="accept" msgid="1888285552128743656">"முடிந்தது"</string>
+    <string name="discard" msgid="761613433029406319">"நிராகரி"</string>
+    <string name="button_ok" msgid="3004911343723076226">"சரி"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"உங்கள் பதிவுகள்"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"ஆடியோ பதிவுகள்"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"எனது பதிவுகள்"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"USB சேமிப்பகத்தை அணுக முடியவில்லை."</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"SD கார்டை அணுக முடியவில்லை."</string>
+    <string name="error_app_internal" msgid="312884382388702022">"அகப் பயன்பாடு பிழை."</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"பதிவுசெய்த ஆடியோவைச் சேமிக்க முடியவில்லை."</string>
+</resources>
