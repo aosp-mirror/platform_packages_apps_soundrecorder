@@ -24,10 +24,10 @@
     <string name="recording_stopped" msgid="1580278719585249612">"录音停止"</string>
     <string name="storage_is_full" msgid="416039755956726221">"存储空间已满"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"已达到长度上限"</string>
-    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"装载 USB 存储设备"</string>
-    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"请插入 SD 卡"</string>
-    <string name="min_available" msgid="5493947690062988925">"还剩 <xliff:g id="MINUTES">%d</xliff:g> 分钟"</string>
-    <string name="sec_available" msgid="2297020788861694399">"还剩 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"装载USB存储设备"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"请插入SD卡"</string>
+    <string name="min_available" msgid="5493947690062988925">"还剩<xliff:g id="MINUTES">%d</xliff:g>分钟"</string>
+    <string name="sec_available" msgid="2297020788861694399">"还剩<xliff:g id="SECONDS">%d</xliff:g>秒"</string>
     <string name="accept" msgid="1888285552128743656">"完成"</string>
     <string name="discard" msgid="761613433029406319">"放弃"</string>
     <string name="button_ok" msgid="3004911343723076226">"确定"</string>
