@@ -30,7 +30,7 @@
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> ដែល​អាច​ប្រើ​បាន"</string>
     <string name="accept" msgid="1888285552128743656">"រួចរាល់"</string>
     <string name="discard" msgid="761613433029406319">"បោះបង់"</string>
-    <string name="button_ok" msgid="3004911343723076226">"យល់​ព្រម"</string>
+    <string name="button_ok" msgid="3004911343723076226">"យល់​ព្រម​"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
     <string name="audio_db_artist_name" msgid="961640229118120080">"ការ​ថត​​របស់​អ្នក"</string>
