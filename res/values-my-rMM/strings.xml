@@ -29,7 +29,7 @@
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> မိနစ် ရှိသေးသည်"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g>စက္ကန့် ရှိသေးသည်"</string>
     <string name="accept" msgid="1888285552128743656">"ပြီးပါပြီ"</string>
-    <string name="discard" msgid="761613433029406319">"လွှတ်လိုက်ရန်"</string>
+    <string name="discard" msgid="761613433029406319">"ထားလိုက်တော့"</string>
     <string name="button_ok" msgid="3004911343723076226">"ကောင်းပြီ"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
