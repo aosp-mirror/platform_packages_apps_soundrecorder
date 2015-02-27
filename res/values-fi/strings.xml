@@ -16,7 +16,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" msgid="5955735546071433666">"Sound Recorder"</string>
+    <string name="app_name" msgid="5955735546071433666">"Ääninauhuri"</string>
     <string name="record_your_message" msgid="1583671906691662148">"Tallenna viesti"</string>
     <string name="message_recorded" msgid="381539460921872233">"Viesti tallennettu"</string>
     <string name="review_message" msgid="201616012287839474">"Tarkista viesti"</string>
