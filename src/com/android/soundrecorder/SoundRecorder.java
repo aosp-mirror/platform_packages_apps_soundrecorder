@@ -471,7 +471,8 @@ public class SoundRecorder extends Activity
         if (uri == null) {
             return;
         }
-        setResult(RESULT_OK, new Intent().setData(uri));
+        setResult(RESULT_OK, new Intent().setData(uri)
+                                         .setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION));
     }
     
     /*
