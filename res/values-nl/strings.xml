@@ -17,7 +17,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" msgid="5955735546071433666">"Geluidsrecorder"</string>
-    <string name="record_your_message" msgid="1583671906691662148">"Uw bericht opnemen"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Je bericht opnemen"</string>
     <string name="message_recorded" msgid="381539460921872233">"Bericht opgenomen"</string>
     <string name="review_message" msgid="201616012287839474">"Bericht controleren"</string>
     <string name="recording" msgid="4426791467211376099">"Opnemen"</string>
@@ -33,7 +33,7 @@
     <string name="button_ok" msgid="3004911343723076226">"OK"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
-    <string name="audio_db_artist_name" msgid="961640229118120080">"Uw opnamen"</string>
+    <string name="audio_db_artist_name" msgid="961640229118120080">"Je opnamen"</string>
     <string name="audio_db_album_name" msgid="9072588113803264440">"Audio-opnamen"</string>
     <string name="audio_db_playlist_name" msgid="5592939050047058162">"Mijn opnamen"</string>
     <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"Kan geen toegang tot USB-opslag krijgen."</string>
