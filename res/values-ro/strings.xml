@@ -17,7 +17,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" msgid="5955735546071433666">"Înregistrare sunet"</string>
-    <string name="record_your_message" msgid="1583671906691662148">"Înregistraţi mesajul"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"Înregistrați mesajul"</string>
     <string name="message_recorded" msgid="381539460921872233">"Mesaj înregistrat"</string>
     <string name="review_message" msgid="201616012287839474">"Consultaţi mesajul"</string>
     <string name="recording" msgid="4426791467211376099">"Se înregistrează"</string>
