@@ -29,8 +29,8 @@
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> minuta të mbetura"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> sekonda të mbetura"</string>
     <string name="accept" msgid="1888285552128743656">"U krye!"</string>
-    <string name="discard" msgid="761613433029406319">"Hidh poshtë"</string>
-    <string name="button_ok" msgid="3004911343723076226">"Në rregull!"</string>
+    <string name="discard" msgid="761613433029406319">"Injoro"</string>
+    <string name="button_ok" msgid="3004911343723076226">"Në rregull"</string>
     <!-- no translation found for audio_db_title_format (7912182366970749312) -->
     <skip />
     <string name="audio_db_artist_name" msgid="961640229118120080">"Regjistrimet e tua"</string>
