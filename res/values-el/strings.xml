@@ -24,7 +24,7 @@
     <string name="recording_stopped" msgid="1580278719585249612">"Η εγγραφή διακόπηκε"</string>
     <string name="storage_is_full" msgid="416039755956726221">"Ο αποθηκευτικός χώρος είναι πλήρης"</string>
     <string name="max_length_reached" msgid="6398215743584093353">"Έχετε φθάσει στη μέγιστη διάρκεια"</string>
-    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Προσάρτηση χώρου αποθήκευσης USB"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"Προσάρτηση αποθηκευτικού χώρου USB"</string>
     <string name="insert_sd_card" product="default" msgid="1007630222084726808">"Τοποθετήστε μία κάρτα  SD"</string>
     <string name="min_available" msgid="5493947690062988925">"<xliff:g id="MINUTES">%d</xliff:g> λεπτά διαθέσιμα"</string>
     <string name="sec_available" msgid="2297020788861694399">"<xliff:g id="SECONDS">%d</xliff:g> δευτ. διαθέσιμα"</string>
