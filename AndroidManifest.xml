@@ -15,28 +15,29 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.soundrecorder">
+     package="com.android.soundrecorder">
 
-    <original-package android:name="com.android.soundrecorder" />
+    <original-package android:name="com.android.soundrecorder"/>
 
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application android:label="@string/app_name"
-                 android:icon="@drawable/ic_launcher_soundrecorder"
-                 android:usesCleartextTraffic="false">
+         android:icon="@drawable/ic_launcher_soundrecorder"
+         android:usesCleartextTraffic="false">
         <activity android:name="SoundRecorder"
-                android:configChanges="orientation|screenSize|keyboardHidden"
-                android:screenOrientation="unspecified"
-                android:clearTaskOnLaunch="true"
-                android:theme="@style/Theme.SoundRecorder">
+             android:configChanges="orientation|screenSize|keyboardHidden"
+             android:screenOrientation="unspecified"
+             android:clearTaskOnLaunch="true"
+             android:theme="@style/Theme.SoundRecorder"
+             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
             <intent-filter>
-                 <action android:name="android.provider.MediaStore.RECORD_SOUND" />
-                 <category android:name="android.intent.category.DEFAULT" />
+                 <action android:name="android.provider.MediaStore.RECORD_SOUND"/>
+                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
     </application>
