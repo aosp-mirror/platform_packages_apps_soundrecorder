@@ -137,20 +137,21 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
      */
     public void clear() {
         stop();
-        
+
         mSampleLength = 0;
-        
+
         signalStateChanged(IDLE_STATE);
     }
-    
+
     public void startRecording(int outputfileformat, String extension, Context context) {
         stop();
-        
+
         if (mSampleFile == null) {
-            File sampleDir = Environment.getExternalStorageDirectory();
+            File sampleDir = Environment.getExternalStoragePublicDirectory(
+                    Environment.DIRECTORY_DOCUMENTS);
             if (!sampleDir.canWrite()) // Workaround for broken sdcard support on the device.
                 sampleDir = new File("/sdcard/sdcard");
-            
+
             try {
                 mSampleFile = File.createTempFile(SAMPLE_PREFIX, extension, sampleDir);
             } catch (IOException e) {
@@ -158,7 +159,7 @@ public class Recorder implements OnCompletionListener, OnErrorListener {
                 return;
             }
         }
-        
+
         mRecorder = new MediaRecorder();
         mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         mRecorder.setOutputFormat(outputfileformat);
